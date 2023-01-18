@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlserver://dbmanage.lab.ii.agh.edu.pl:1433</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="@projektowa" uuid="537cbf02-0c1e-455d-ac4c-e1940a893013">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://dbmanage.lab.ii.agh.edu.pl</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
